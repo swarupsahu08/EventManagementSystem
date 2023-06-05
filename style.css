@@ -1,0 +1,375 @@
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header Styles */
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Main Styles */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section#hero {
+	background-image: url('event2.jpg');
+	background-position: center;
+	background-size: cover;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+section#hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+section#hero p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #337ab7;
+	color:#fff;
+	border-radius: 4px;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #23527c;
+}
+
+section#events {
+	margin-top: 50px;
+}
+
+section#events h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+section#events ul li {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+section#events .event-thumbnail {
+	flex: 1;
+}
+
+section#events .event-thumbnail img {
+	max-width: 100%;
+	height: auto;
+}
+
+section#events .event-details {
+	flex: 2;
+	padding-left: 30px;
+}
+
+section#events .event-details h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section#events .event-details p {
+	margin-bottom: 5px;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+/* login page css */
+#login {
+	margin: 50px auto;
+	width: 80%;
+	max-width: 500px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.btn {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.btn:hover {
+	background-color: #555;
+}
+
+/* register page css */
+#register {
+	margin: 50px auto;
+	width: 80%;
+	max-width: 500px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.btn {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.btn:hover {
+	background-color: #555;
+}
+
+/* about us page css */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+#about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+/* contact us page css */
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+#contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* uevents page css */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.event-card {
+    width: 300px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.event-card h2 {
+    margin-top: 10px;
+}
+
+.event-card p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.event-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.event-card a:hover {
+    background-color: #0056b3;
+} */
