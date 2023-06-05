@@ -1,0 +1,221 @@
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header Styles */
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+} 
+
+/* Footer Styles */ 
+footer { 
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+} 
+
+/* create events page css */
+ 
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
+  /* Form styles */
+  section {
+    padding: 20px 0;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+
+
+  /* my events page css */
+  body {
+    font-family: Arial, sans-serif;
+    color: #444;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 28px;
+  }
+
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  #event-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #event-box h2 {
+    margin-top: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #444;
+  }
+  
+  /* manage usesers css */
+  #manage-users {
+    padding: 40px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* .manage-users-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.manage-users-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.ed {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.ed:hover {
+  background-color: #3e8e41;
+}
